@@ -3,7 +3,7 @@ import React, { useContext } from 'react';
 import { cartItemsContext } from '../context/CartContext';
 import Cart from '../_components/CartItem';
 
-export default function page() {
+export default function Page() {
     const { cartItems } = useContext(cartItemsContext)
 
     return (
